@@ -17,6 +17,7 @@ body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-se
 <body>
 <h1>Hello world! Version: 1</h1>
 <p><strong>Hostname:</strong> #{Socket.gethostname}</p>
+<p><strong>Ruby Version:</strong> #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}</p>
 </body>
 </html>
 EOF
