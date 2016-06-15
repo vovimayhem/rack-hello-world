@@ -1,4 +1,4 @@
-FROM ruby:2.3.1-alpine
+FROM vovimayhem/ruby:1.9.3-p551
 
 COPY . /app
 WORKDIR /app

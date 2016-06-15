@@ -6,7 +6,7 @@ volumes:
 
 services:
   web:
-    image: ruby:2.3.1
+    image: vovimayhem/ruby:1.9.3-p551
     command: rackup -o 0.0.0.0 config.ru
     entrypoint: /app/development-entrypoint
     ports: [ "9292:9292" ]
