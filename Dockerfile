@@ -5,4 +5,4 @@ WORKDIR /app
 RUN bundle install
 EXPOSE 9292
 USER nobody
-CMD rackup -o 0.0.0.0 hello-world.ru
+CMD rackup -o 0.0.0.0 config.ru

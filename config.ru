@@ -1,6 +1,6 @@
-require 'rack'
-require 'rack/server'
-require 'socket'
+require "rack"
+require "rack/server"
+require "socket"
 
 class HelloWorldApp
   def self.call(env)

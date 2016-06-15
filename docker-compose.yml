@@ -7,7 +7,7 @@ volumes:
 services:
   web:
     image: ruby:2.3.1
-    command: rackup -o 0.0.0.0 hello-world.ru
+    command: rackup -o 0.0.0.0 config.ru
     entrypoint: /app/development-entrypoint
     ports: [ "9292:9292" ]
     stdin_open: true
